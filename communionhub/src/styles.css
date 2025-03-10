@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: #0d0d0d; /* Even Darker */
+    color: #f5f5f5; /* Lighter Text */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark Mode Navbar */
+body.dark .navbar {
+    background-color: #333;
+}
+
+/* Navbar Links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main Container */
+.container {
+    padding: 20px;
+}
+
+/* Event Cards */
+.event-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 5px;
+    background: white;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+/* Dark Mode Event Cards */
+body.dark .event-card {
+    background: #1e1e1e;
+    border: 1px solid #444;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Button Hover */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Dark Mode Buttons */
+body.dark button {
+    background: #222;
+    color: white;
+    border: 1px solid #666;
+}
+
+body.dark button:hover {
+    background: #333;
+}
+
+/* Edit & Delete Buttons */
+button.edit {
+    background: #28a745; /* Green */
+    color: white;
+}
+
+button.delete {
+    background: #dc3545; /* Red */
+    color: white;
+}
+
+/* Inputs & Select */
+input, select {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+/* Dark Mode Inputs & Select */
+body.dark input,
+body.dark select {
+    background: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+/* Admin Panel */
+.admin-panel {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
