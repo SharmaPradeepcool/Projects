@@ -54,5 +54,5 @@ Contributions are welcome! Follow these steps:
 5. Open a Pull Request
 
 ## 📞 Contact
-For any queries or feedback, reach out to me at [your.email@example.com](mailto:your.email@example.com).
+For any queries or feedback, reach out to me at pradeepsharma79000@gmail.com).
 
